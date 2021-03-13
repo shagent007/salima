@@ -17,7 +17,7 @@
 .header{
   background-color: red;
   height: 60px;
- 
+  margin-bottom: 30px;
 }
 
 .text{
@@ -28,21 +28,28 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrap_sidebar{
-  width: 20%;
-  background-color: green;
-  height: 400px;
+.wrap{
+  display: flex;
+  flex-flow: wrap;
+  margin-right: -30px;
+  margin-bottom: 30px;
 }
 
-.wrap_content{
-  width: 60%;
-  background-color: brown;
-  height: 400px;
+.wrap_block{
+  width: 33.333%;
+  padding-right: 30px;
 }
+
+.wrap_inblock{
+  height: 400px;
+  background-color: teal;
+}
+
 
 .footer{
   background-color: blue;
   height: 60px;
+
 }
 
 
