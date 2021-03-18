@@ -38,12 +38,24 @@
   padding: 0px 30px;
 }
 
+.banner{
+  margin-bottom: 60px;
+}
+
 .wrap_image{
   width: 40%;
+ 
+}
+
+.image_right{
   padding-right: 30px;
 }
 
-.wrap_img{
+.image_left{
+  padding-left: 30px;
+}
+
+img{
   width: 100%;
 }
 
@@ -55,9 +67,29 @@
   margin-bottom: 30px;
 }
 
+.articles{
+  display: flex;
+  flex-flow: wrap;
+  margin-right: -30px;
+  margin-bottom: 30px;
+}
 
+.articles_block{
+  width: 33.333%;
+  padding-right: 30px;
+}
 
+.text-left{
+  text-align: left;
+}
 
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
 
 
 .footer{
